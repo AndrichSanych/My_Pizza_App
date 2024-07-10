@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {ICategoryItem} from "./types.ts";
 
 const CategoriesPage: React.FC = () => {
-    const [list, setList] = useState<ICategoryItem[]>(
+    const [list] = useState<ICategoryItem[]>(
         [
             {
                 id: 1,
